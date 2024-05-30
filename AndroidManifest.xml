@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.htk.htk" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="汇拓客" android:name="com.stub.StubApp" android:supportsRtl="true" android:theme="@style/ScriptTheme" android:usesCleartextTraffic="true">
+        <activity android:label="@string/title_activity_login" android:name="com.stardust.auojs.inrt.LoginActivity"/>
+        <activity android:name="com.stardust.auojs.inrt.LogActivity"/>
+        <activity android:name="com.stardust.auojs.inrt.FeatureActivity"/>
+        <activity android:clearTaskOnLaunch="true" android:finishOnTaskLaunch="true" android:name="com.stardust.auojs.inrt.SplashActivity" android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.stardust.auojs.inrt.SettingsActivity"/>
+        <service android:label="汇拓客" android:name="com.stardust.notification.NotificationListenerService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.htk.htk.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.stardust.autojs.execution.ScriptExecuteActivity" android:theme="@style/ScriptTheme"/>
+        <activity android:excludeFromRecents="true" android:name="com.stardust.autojs.core.permission.PermissionRequestActivity" android:taskAffinity="com.stardust.autojs.runtime.api.image.ScreenCaptureRequestActivity" android:theme="@style/ScriptTheme.Transparent"/>
+        <activity android:excludeFromRecents="true" android:name="com.stardust.autojs.core.image.capture.ScreenCaptureRequestActivity" android:taskAffinity="com.stardust.autojs.runtime.api.image.ScreenCaptureRequestActivity" android:theme="@style/ScriptTheme.Transparent"/>
+        <service android:name="com.stardust.autojs.core.accessibility.AccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service_config"/>
+        </service>
+        <receiver android:name="com.fanjun.keeplive.receiver.NotificationClickReceiver"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.fanjun.keeplive.activity.OnePixelActivity" android:theme="@style/onePixelActivity"/>
+        <service android:name="com.fanjun.keeplive.service.LocalService"/>
+        <service android:name="com.fanjun.keeplive.service.HideForegroundService"/>
+        <service android:name="com.fanjun.keeplive.service.JobHandlerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.fanjun.keeplive.service.RemoteService" android:process=":remote"/>
+        <provider android:authorities="com.htk.htk.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.linsh.utilseverywhere.FileProviderUtils$LshFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/lsh_file_paths"/>
+        </provider>
+        <service android:name="com.stardust.enhancedfloaty.FloatyService"/>
+    </application>
+</manifest>

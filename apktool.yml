@@ -1,0 +1,36 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 汇拓客.apk
+compressionType: false
+doNotCompress:
+- assets/.jgapp
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+  org/apache/log4j/lf5/config/defaultconfig.properties: '8'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif: '8'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif: '8'
+  org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif: '8'
+  org/apache/log4j/xml/log4j.dtd: '8'
+  org/mozilla/javascript/resources/Messages.properties: '8'
+  org/mozilla/javascript/resources/Messages_fr.properties: '8'
+  org/mozilla/javascript/tools/debugger/build.xml: '8'
+  org/mozilla/javascript/tools/debugger/test.js: '8'
+  org/mozilla/javascript/tools/idswitch/README: '8'
+  org/mozilla/javascript/tools/resources/Messages.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '27'
+  versionName: 2.7.0

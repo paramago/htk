@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/text_script_running">
+        <SwitchPreference android:title="@string/text_use_volume_to_stop_running" android:key="@string/key_use_volume_control_running" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/text_hide_logs" android:key="@string/key_hide_logs" android:summary="@string/summary_hide_logs" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/text_dont_show_main_activity" android:key="@string/key_dont_show_main_activity" android:summary="@string/summary_dont_show_main_activity" android:defaultValue="false" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/text_accessibility_service">
+        <SwitchPreference android:title="@string/text_use_accessibility_service" android:key="@string/key_enable_accessibility_service" android:summary="@string/summary_enable_accessibility_service" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/text_use_floating_window" android:key="@string/key_enable_floating_window" android:summary="@string/summary_enable_floating_window" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/text_enable_accessibility_service_by_root" android:key="@string/key_enable_accessibility_service_by_root" android:summary="@string/summary_enable_accessibility_service_by_root" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/text_stable_mode" android:key="@string/key_stable_mode" android:summary="@string/summary_stable_mode" android:defaultValue="false" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

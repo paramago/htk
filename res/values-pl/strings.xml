@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Przejdź na stronę główną</string>
+    <string name="abc_action_bar_up_description">Przejdź wyżej</string>
+    <string name="abc_action_menu_overflow_description">Więcej opcji</string>
+    <string name="abc_action_mode_done">Gotowe</string>
+    <string name="abc_activity_chooser_view_see_all">Pokaż wszystko</string>
+    <string name="abc_activitychooserview_choose_application">Wybierz aplikację</string>
+    <string name="abc_capital_off">WYŁ.</string>
+    <string name="abc_capital_on">WŁ.</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Funkcyjny+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">spacja</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Szukaj…</string>
+    <string name="abc_searchview_description_clear">Wyczyść zapytanie</string>
+    <string name="abc_searchview_description_query">Zapytanie</string>
+    <string name="abc_searchview_description_search">Szukaj</string>
+    <string name="abc_searchview_description_submit">Wyślij zapytanie</string>
+    <string name="abc_searchview_description_voice">Wyszukiwanie głosowe</string>
+    <string name="abc_shareactionprovider_share_with">Udostępnij przez:</string>
+    <string name="abc_shareactionprovider_share_with_application">Udostępnij przez: %s</string>
+    <string name="abc_toolbar_collapse_description">Zwiń</string>
+    <string name="alt_sends_esc">Przycisk Alt wysyła ESC</string>
+    <string name="alt_sends_esc_summary_off">Przycisk Alt nie wysyła ESC.</string>
+    <string name="alt_sends_esc_summary_on">Przycisk Alt wysyła ESC.</string>
+    <string name="application_terminal">Terminal Emulator</string>
+    <string name="bottomsheet_action_expand_halfway">Rozwiń do połowy</string>
+    <string name="character_counter_content_description">%1$d z %2$d znaków</string>
+    <string name="character_counter_overflowed_content_description">Przekroczono limit znaków (%1$d z %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Wyczyść tekst</string>
+    <string name="close_window">Zamknij okno</string>
+    <string name="confirm_window_close_message">Zamknąć to okno?</string>
+    <string name="control_key_dialog_control_disabled_text">Brak ustawionego przycisku Control.</string>
+    <string name="control_key_dialog_control_text">"CTRLKEY Spacja : Control-@ (NUL)
+CTRLKEY A..Z : Control-A..Z
+CTRLKEY 5 : Control-]
+CTRLKEY 6 : Control-^
+CTRLKEY 7 : Control-_
+CTRLKEY 9 : F11
+CTRLKEY 0 : F12"</string>
+    <string name="control_key_dialog_fn_disabled_text">Brak ustawionego przycisku Fn.</string>
+    <string name="control_key_dialog_fn_text">"FNKEY 1..9 : F1-F9
+FNKEY 0 : F10
+FNKEY W : Góra
+FNKEY A : Lewo
+FNKEY S : Dół
+FNKEY D : Prawo
+FNKEY P : PageUp
+FNKEY N : PageDown
+FNKEY T : Tab
+FNKEY L : | (pipe)
+FNKEY U : _ (underscore)
+FNKEY E : Control-[ (ESC)
+FNKEY X : Delete
+FNKEY I : Insert
+FNKEY H : Home
+FNKEY F : End
+FNKEY . : Control-\\
+"</string>
+    <string name="control_key_dialog_title">Przyciski Control i Fn</string>
+    <string name="copy">Kopiuj</string>
+    <string name="copy_all">Kopiuj wszystko</string>
+    <string name="dialog_title_actionbar_preference">Zachowanie paska akcji</string>
+    <string name="dialog_title_backaction_preference">Zachowanie przycisku wstecz</string>
+    <string name="dialog_title_color_preference">Kolor tekstu</string>
+    <string name="dialog_title_controlkey_preference">Przycisk control</string>
+    <string name="dialog_title_cursorblink_preference">Miganie kursora</string>
+    <string name="dialog_title_cursorstyle_preference">Styl kursora</string>
+    <string name="dialog_title_fnkey_preference">Przycisk Fn</string>
+    <string name="dialog_title_fontsize_preference">Rozmiar czcionki</string>
+    <string name="dialog_title_ime_preference">Metoda wprowadzania</string>
+    <string name="dialog_title_initialcommand_preference">Komenda początkowa</string>
+    <string name="dialog_title_shell_preference">Powłoka</string>
+    <string name="dialog_title_statusbar_preference">Pasek stanu</string>
+    <string name="dialog_title_termtype_preference">Typ Terminala</string>
+    <string name="disable_wakelock">Zwolnij WakeLock</string>
+    <string name="disable_wifilock">Zwolnij WifiLock</string>
+    <string name="edit_text">Edytuj tekst</string>
+    <string name="email_transcript_chooser_title">Wyślij transkrypt używając:</string>
+    <string name="email_transcript_no_email_activity_found">Nie można wybrać aktywności e-mail żeby wysłać transkrypt.</string>
+    <string name="email_transcript_subject">Transkrypt z Terminal Emulator for Android</string>
+    <string name="enable_wakelock">Weź WakeLock</string>
+    <string name="enable_wifilock">Weź WifiLock</string>
+    <string name="error_icon_content_description">Błąd</string>
+    <string name="expand_button_title">Zaawansowane</string>
+    <string name="exposed_dropdown_menu_content_description">Pokaż menu</string>
+    <string name="icon_content_description">Ikona okna</string>
+    <string name="keyboard_preferences">Klawiatura</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_selection">Wybierz godzinę</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Wybierz minuty</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_timepicker_am">Do południa</string>
+    <string name="material_timepicker_clock_mode_description">Aby wprowadzić czas, włącz tryb zegara.</string>
+    <string name="material_timepicker_hour">Godzina</string>
+    <string name="material_timepicker_minute">Minuta</string>
+    <string name="material_timepicker_pm">Po południu</string>
+    <string name="material_timepicker_select_time">Określ czas</string>
+    <string name="material_timepicker_text_input_mode_description">Aby wprowadzić czas, włącz tryb wprowadzania tekstu.</string>
+    <string name="mtrl_badge_numberless_content_description">Nowe powiadomienie</string>
+    <string name="mtrl_chip_close_icon_content_description">Usuń: (%1$s)</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Liczba nowych powiadomień przekracza %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Zmień na następny miesiąc</string>
+    <string name="mtrl_picker_a11y_prev_month">Zmień na poprzedni miesiąc</string>
+    <string name="mtrl_picker_announce_current_selection">Bieżący wybór: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Wybierz datę</string>
+    <string name="mtrl_picker_date_header_unselected">Wybrana data</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolumna z dniami: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Nieprawidłowy format.</string>
+    <string name="mtrl_picker_invalid_format_example">Przykład: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Użyj formatu: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Nieprawidłowy zakres.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Przejdź do roku %1$s</string>
+    <string name="mtrl_picker_out_of_range">Poza zakresem: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data rozpoczęcia – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – data zakończenia</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Wybierz zakres dat</string>
+    <string name="mtrl_picker_range_header_unselected">Data rozpoczęcia – data zakończenia</string>
+    <string name="mtrl_picker_save">Zapisz</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data zakończenia</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data rozpoczęcia</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Włącz kalendarzowy tryb wprowadzania</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Kliknij, by wybrać dzień</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Włącz tekstowy tryb wprowadzania</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Kliknij, by wybrać rok</string>
+    <string name="new_window">Nowe okno</string>
+    <string name="next_window">Następne okno</string>
+    <string name="not_set">Nie ustawiono</string>
+    <string name="password_toggle_content_description">Pokaż hasło</string>
+    <string name="paste">Wklej</string>
+    <string name="perm_append_to_path">Dodawanie komend w Terminal Emulator</string>
+    <string name="perm_prepend_to_path">Nadpisuj komendy Terminal Emulator</string>
+    <string name="perm_run_script">Uruchamiaj komendy w Terminal Emulator</string>
+    <string name="permdesc_append_to_path">Pozwól aplikacjom na dodawanie dodatkowych komend (odawanie katalogów do PATH) w Terminal Emulator for Android.</string>
+    <string name="permdesc_prepend_to_path">Pozwól aplikacjom na nadpisywanie istniejących komend ich własnymi wersjami (dodawanie katalogów na początku PATH) w Terminal Emulator for Android.</string>
+    <string name="permdesc_run_script">Pozwalaj na otwieranie okien w Terminal Emulator for Android i wykonywanie komend w tych oknach z wszystkimi prawami Terminal Emulator for Android, wliczając dostęp do internetu i karty SD.</string>
+    <string name="preference_copied">Skopiowano „%1$s” do schowka.</string>
+    <string name="preferences">Ustawienia</string>
+    <string name="prev_window">Poprzednie okno</string>
+    <string name="process_exit_message">Sesja Terminala została zakończona</string>
+    <string name="reset">Wyczyść terminal</string>
+    <string name="reset_toast_notification">Stan tego okna terminala został zresetowany</string>
+    <string name="screen_preferences">Ekran</string>
+    <string name="search_menu_title">Szukaj</string>
+    <string name="select_text">Wybierz tekst</string>
+    <string name="send_control_key">Wyślij przycisk control</string>
+    <string name="send_email">Wyślij e-mail</string>
+    <string name="send_fn_key">Wyślij przycisk fn</string>
+    <string name="service_notify_text">Sesja Terminala jest włączona</string>
+    <string name="shell_preferences">Powłoka</string>
+    <string name="special_keys">Przyciski specjalne</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_actionbar_preference">Wybierz zachowanie paska akcji (Android 3.0 i nowsze).</string>
+    <string name="summary_allow_prepend_path_preference">Czy inne aplikacje powinny mieć możliwość nadpisywania istniejących komend (dodawanie na początku PATH).</string>
+    <string name="summary_backaction_preference">Wybierz co ma robić wciśniecie przycisku wstecz.</string>
+    <string name="summary_close_window_on_process_exit_preference">Czy okno powinno się zamknąć gdy jego shell się zamyka.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_color_preference">Wybierz kolor tekstu.</string>
+    <string name="summary_controlkey_preference">Wybierz przycisk control.</string>
+    <string name="summary_cursorblink_preference">Wybierz miganie kursora.</string>
+    <string name="summary_cursorstyle_preference">Wybierz styl kursora.</string>
+    <string name="summary_do_path_extensions_preference">Czy inne aplikacje powinny mieć możliwość dostarczania dodatkowych komend (dodawanie do PATH).</string>
+    <string name="summary_fnkey_preference">Wybierz przycisk Fn.</string>
+    <string name="summary_fontsize_preference">Wybierz wielkość liter.</string>
+    <string name="summary_ime_preference">Wybierz metodę wprowadzania.</string>
+    <string name="summary_initialcommand_preference">Wysyłana do powłoki podczas startu.</string>
+    <string name="summary_shell_preference">Określ linię powłokę.</string>
+    <string name="summary_statusbar_preference">Pokaż/ukryj pasek stanu.</string>
+    <string name="summary_termtype_preference">Jaki typ terminala zgłosić do shella.</string>
+    <string name="summary_utf8_by_default_preference">Czy tryb UTF-8 jest włączony domyślnie.</string>
+    <string name="summary_verify_path_preference">Czy niedostępne katalogi powinny być usunięte z PATH.</string>
+    <string name="text_preferences">Tekst</string>
+    <string name="title_actionbar_preference">Pasek akcji</string>
+    <string name="title_allow_prepend_path_preference">Zazwól na dodawanie na początku PATH</string>
+    <string name="title_backaction_preference">Zachowanie przycisku wstecz</string>
+    <string name="title_close_window_on_process_exit_preference">Zamknij okno przy wyjściu</string>
+    <string name="title_color_preference">Kolory</string>
+    <string name="title_controlkey_preference">Przycisk control</string>
+    <string name="title_cursorblink_preference">Miganie kursora</string>
+    <string name="title_cursorstyle_preference">Styl kursora</string>
+    <string name="title_do_path_extensions_preference">Zezwól na rozszerzanie PATH</string>
+    <string name="title_fnkey_preference">Przycisk Fn</string>
+    <string name="title_fontsize_preference">Rozmiar czcionki</string>
+    <string name="title_ime_preference">Metoda wprowadzania</string>
+    <string name="title_initialcommand_preference">Komenda początkowa</string>
+    <string name="title_shell_preference">Linia poleceń</string>
+    <string name="title_statusbar_preference">Pasek stanu</string>
+    <string name="title_termtype_preference">Typ Terminala</string>
+    <string name="title_utf8_by_default_preference">Domyślnie do UTF-8</string>
+    <string name="title_verify_path_preference">Weryfikuj ścieżki PATH</string>
+    <string name="toggle_soft_keyboard">Pokaż klawiaturę</string>
+    <string name="v7_preference_off">WYŁ.</string>
+    <string name="v7_preference_on">WŁ.</string>
+    <string name="window_list">Okna</string>
+    <string name="window_title">Okno %1$d</string>
+</resources>

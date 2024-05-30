@@ -1,0 +1,28 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "F1FC097D-3",
+    "build_number": 3,
+    "build_time": 1711594033839
+  },
+  "useFeatures": [],
+  "icon": "res/logo.png",
+  "launchConfig": {
+    "hideLogs": true,
+    "displaySplash": true,
+    "serviceDesc": "使脚本自动操作(点击、长按、滑动等)所需，若关闭则只能执行不涉及自动操作的脚本。",
+    "splashText": "Powered By Android",
+    "stableMode": false,
+    "volumeUpcontrol": false
+  },
+  "main": "main.js",
+  "name": "汇拓客",
+  "packageName": "com.htk.htk",
+  "scripts": {},
+  "signingConfig": {
+    "alias": "",
+    "keystore": ""
+  },
+  "versionCode": 27,
+  "versionName": "2.7.0"
+}
